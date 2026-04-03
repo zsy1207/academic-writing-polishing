@@ -1,6 +1,6 @@
 ---
 name: academic-writing-polishing
-description: Use when polishing or rewriting existing academic or scientific text for clarity, concision, structure, argument flow, section fit, reviewer-response revision, or broader-audience adaptation while preserving claims, numbers, citations, equations, and markup.
+description: Use when polishing or rewriting existing academic or scientific text for clarity, concision, structure, discipline or journal style alignment, reviewer-response revision, AI-sounding phrasing reduction, or broader-audience adaptation while preserving claims, numbers, citations, equations, and markup.
 ---
 
 # Academic Writing Polishing
@@ -9,6 +9,8 @@ description: Use when polishing or rewriting existing academic or scientific tex
 
 Polish existing academic writing without changing the underlying science. Diagnose the task type first, then revise from structure to paragraph logic to sentence-level style, and finish with consistency and integrity checks.
 
+Default audience, when unspecified, is an educated scientific reader outside the exact subfield.
+
 ## When to Load References
 
 | Situation | Load |
@@ -16,7 +18,7 @@ Polish existing academic writing without changing the underlying science. Diagno
 | Sentence, paragraph, or full-draft polish | `references/core-editing.md` |
 | Manuscript section, abstract, table, figure, or full paper | `references/manuscript-sections.md` |
 | Journal submission, reviewer response, or publication-risk check | `references/publishing-and-review.md` |
-| Review article, grant, lay summary, media, or science news | `references/other-genres-and-public-audiences.md` |
+| Review article, grant, recommendation letter, personal statement, lay summary, media, science news, or social post | `references/other-genres-and-public-audiences.md` |
 
 Load only what the task needs.
 
@@ -26,8 +28,10 @@ Load only what the task needs.
 - Do not invent data, methods, results, mechanisms, references, or limitations.
 - Do not silently strengthen or weaken claims.
 - Do not smooth over scientific or logical flaws. Name them directly, then offer the safest rewrite.
+- Do not break citation keys, equation syntax, LaTeX commands, table structure, or Markdown structure.
 - Keep key terminology stable. Repeat the right keyword rather than forcing awkward synonyms.
 - Use active voice by default, but allow passive voice where the action matters more than the actor, especially in Methods.
+- If target discipline, journal, or voice materially affects the rewrite and cannot be inferred safely, ask before forcing a style.
 
 ## Modes
 
@@ -40,7 +44,7 @@ Load only what the task needs.
 
 ## Core Workflow
 
-1. Identify the genre, audience, and requested level of intervention.
+1. Identify the genre, section role, audience, target style, and requested level of intervention.
 2. Recover the controlling outline before doing line edits.
    - Name the job of each section or paragraph.
    - If the order is wrong, fix the order first.
@@ -56,7 +60,7 @@ Load only what the task needs.
    - Cut clutter, nominalizations, empty hedging, and weak openings.
    - Keep the subject and main verb close.
 6. Run the final safety pass.
-   - Check numbers, labels, claims, citations, tables, figures, and section boundaries.
+   - Check numbers, labels, claims, citations, tables, figures, equations, and section boundaries.
 
 ## Core Editing Rules
 
@@ -65,6 +69,7 @@ Load only what the task needs.
 - Make the take-home message explicit early enough for the reader to carry it forward.
 - Favor general-to-specific or question-to-answer progression.
 - For arguments with competing points, group support, counterarguments, and rebuttals instead of alternating them sentence by sentence.
+- Make the text do the job of its slot. A Discussion opening should not read like a limitation paragraph, and a Results paragraph should not sound like interpretation.
 
 ### Paragraphs
 
@@ -83,8 +88,11 @@ Load only what the task needs.
 - Use punctuation for clarity and emphasis, not decoration.
 - Keep jargon and acronyms only when they are standard for the intended reader.
 - Reserve `significant` for statistical significance.
+- If asked to reduce AI-sounding phrasing, cut filler, generic uplift, decorative symmetry, and over-patterned lists without changing substance.
 
 ## Output Contract
+
+If the style target is unclear and the choice would materially change the rewrite, ask one focused question before revising.
 
 If the user provides text, return the revised text first. Add brief notes only when they materially help the user understand the structural change, trade-off, or unresolved scientific issue.
 
@@ -98,7 +106,8 @@ If multiple rewrites are genuinely useful, provide 2-3 options with a one-line e
 
 - Does the prose still match the evidence?
 - Did any edit change claim strength, scope, or causality?
+- Is the section doing the job of its exact slot?
 - Do numbers agree across abstract, text, tables, and figures?
 - Do citations still support the sentence they follow?
-- Did the rewrite preserve equations, variables, and markup?
+- Did the rewrite preserve equations, variables, citation keys, and markup?
 - Is the jargon level right for the audience?

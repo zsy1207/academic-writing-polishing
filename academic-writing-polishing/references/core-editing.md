@@ -6,8 +6,9 @@
 2. Cut clutter
 3. Work with verbs
 4. Build better sentences and paragraphs
-5. Separate drafting from revision
-6. Final pre-delivery checklist
+5. Micro-grammar reminders
+6. Separate drafting from revision
+7. Final pre-delivery checklist
 
 ## Principles
 
@@ -129,6 +130,18 @@ Transition words are not a substitute for logic.
 - Define them clearly.
 - Redefine long-forgotten acronyms in long documents when needed.
 
+### Prefer tables or figures when prose is the wrong container
+
+If the information is fundamentally hierarchical, procedural, or heavily numeric, consider a table, figure, or diagram instead of forcing it into a dense paragraph.
+
+## Micro-grammar reminders
+
+- `data` is plural in formal scientific prose.
+- `affect` is usually the verb; `effect` is usually the noun.
+- `compared with` usually highlights differences among similar things; `compared to` usually highlights similarity across unlike things.
+- Use `that` for restrictive clauses and `which` for nonrestrictive clauses.
+- Avoid singular antecedents paired with `they` or `their` when the sentence can be rewritten cleanly in the plural.
+
 ## Separate drafting from revision
 
 Treat writing as three distinct stages.
@@ -163,6 +176,7 @@ Run multiple focused checks rather than one vague polish pass.
 - Cut clutter.
 - Tag each paragraph with its main point and reorder as needed.
 - Get feedback from a smart outside reader when audience reach matters.
+- Verify reference integrity and prefer primary sources when the task touches literature claims.
 
 ## Final pre-delivery checklist
 

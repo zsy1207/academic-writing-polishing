@@ -1,3 +1,4 @@
 interface:
   display_name: "Academic Writing Polishing"
   short_description: "Polish academic writing and manuscripts"
+  default_prompt: "Revise academic or scientific writing for clarity, concision, structure, and section-appropriate tone without changing the underlying science."

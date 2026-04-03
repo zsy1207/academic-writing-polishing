@@ -4,9 +4,12 @@
 
 1. Review articles
 2. Grants
-3. Broader-audience science writing
-4. Media and interviews
-5. Science news structure
+3. Letters of recommendation
+4. Personal statements
+5. Broader-audience science writing
+6. Media and interviews
+7. Science news structure
+8. Social media
 
 ## Review articles
 
@@ -61,6 +64,37 @@ Key components:
 
 Prefer strong verbs such as `will`, `test`, `determine`, and `evaluate` over weak verbs such as `hope` or `try`.
 
+## Letters of recommendation
+
+### Core job
+
+Support a candidate with concrete evidence, not generic praise.
+
+### Rules
+
+- Decline if you cannot write a strong letter.
+- Start by stating the recommendation and your relationship to the candidate.
+- Use specific memorable examples.
+- Compare or quantify when possible.
+- Focus on qualities relevant to the opportunity.
+- End with a strong closing statement.
+- Use top-tier comparative praise only when it is genuinely true; generic praise can read as faint support.
+
+## Personal statements
+
+### Core job
+
+Show who the applicant is, why the path makes sense, and why the target program fits.
+
+### Rules
+
+- Make it personal and specific.
+- Use stories rather than CV recitation.
+- Explain motivation, direction, and fit.
+- Address gaps or failures directly and show growth.
+- Avoid cliches and inflated vocabulary.
+- End strongly, ideally with a return to the opening thread.
+
 ## Broader-audience science writing
 
 ### Core shift
@@ -107,6 +141,12 @@ Speak:
 - What surprised you?
 - What made you ask this question?
 
+### Quote and Q&A editing
+
+- Clean spoken quotes lightly for readability, but preserve meaning.
+- Deleting filler is usually safer than adding clarifying language.
+- A Q&A should be condensed and coherent, not a raw transcript.
+
 ## Science news structure
 
 Typical structure:
@@ -144,6 +184,14 @@ Typical structure:
 
 - leave the reader with a satisfying close
 - often circles back to the opening image or question
+
+## Social media
+
+- Decide the goal before posting.
+- Be real rather than institutional and inflated.
+- Tailor the message to the platform and audience.
+- Use social posts as short lay summaries, not miniature journal abstracts.
+- Engage rather than lecture.
 
 ## Fast genre audit
 

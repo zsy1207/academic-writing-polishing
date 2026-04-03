@@ -3,9 +3,10 @@
 ## Contents
 
 1. Publication integrity
-2. Submission and revision
-3. Peer review
-4. Predatory-journal checks
+2. Authorship and acknowledgements
+3. Submission and revision
+4. Peer review
+5. Predatory-journal checks
 
 ## Publication integrity
 
@@ -30,6 +31,28 @@ Watch for:
 - submitting overlapping manuscripts to multiple journals
 
 When polishing, flag suspicious reuse rather than smoothing it.
+
+## Authorship and acknowledgements
+
+### Authorship
+
+Every listed author should be able to take public responsibility for the paper.
+
+Typical order logic:
+- first author: largest practical and writing contribution
+- last author: senior or supervisory role
+
+Watch for:
+- honorary or guest authorship
+- ghostwriting
+- author lists that do not match contribution claims
+
+### Acknowledgements
+
+Use acknowledgements for:
+- funding
+- materials or advice that do not justify authorship
+- other support outside author-level contribution
 
 ## Submission and revision
 
