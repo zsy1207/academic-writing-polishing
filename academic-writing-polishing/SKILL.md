@@ -97,6 +97,43 @@ Load only what the task needs.
 - Reserve `significant` for statistical significance.
 - If asked to reduce AI-sounding phrasing, cut filler, generic uplift, decorative symmetry, and over-patterned lists without changing substance.
 
+## Section Mini Templates
+
+Use these as direction-of-travel templates, not fixed wording.
+
+### Abstract mini template
+
+- Sentence 1: background or problem
+- Sentence 2: question, aim, or hypothesis
+- Sentence 3: study design or method at a high level
+- Sentence 4: key result
+- Sentence 5: conclusion or implication
+
+### Introduction mini template
+
+- Paragraph 1: what is known and why it matters
+- Paragraph 2: what remains unknown, inconsistent, or limited
+- Paragraph 3: what this study asked or tested, and briefly how it addresses the gap
+
+### Results mini template
+
+- Opening sentence: main trend or contrast
+- Middle sentence: one or two key values or comparisons
+- Final sentence: cite the display item and move to the next result
+
+### Discussion mini template
+
+- Opening sentence: direct answer to the research question
+- Middle sentences: interpretation, fit with prior literature, and important caveats
+- Closing sentence: take-home message or implication without overselling
+
+### Reviewer-response mini template
+
+- Reviewer point
+- Short agreement or disagreement statement
+- Exact revision made or exact reason no revision was made
+- Location of the change if available
+
 ## Output Contract
 
 - If the user has not provided source text, do not pretend the rewrite is complete. Ask only for the minimum inputs: source excerpt, target venue or audience, and intervention level.
@@ -114,4 +151,3 @@ Load only what the task needs.
 - Do citations still support the sentence they follow?
 - Did the rewrite preserve protected tokens, equations, variables, citation keys, and markup?
 - Is the jargon level right for the audience?
-
