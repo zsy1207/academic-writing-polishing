@@ -4,10 +4,15 @@ Use this file as a focused example bank for academic writing polishing. The goal
 
 ## How to use this file
 
-- Match the user's passage to the closest rhetorical problem.
+- Match the user's passage to the closest rhetorical problem (use the Quick Matching Guide at the end).
 - Borrow the direction of revision, not the exact wording.
 - Preserve claim strength, numbers, citations, and section role.
 - Prefer the smallest rewrite that solves the real problem.
+- Treat this file as the primary before/after example bank. Keep long examples here instead of duplicating them across reference files.
+- For reviewer responses, stabilize the skeleton with the minimum template in `publishing-and-review.md` before borrowing tone or phrasing from Section 7.
+- For cover letters, stabilize the skeleton with the minimum template in `manuscript-sections.md` before borrowing direction from Section 12.
+- For paragraph restructuring, use Section 10 to see the outline-first editing method in action.
+- For sentence monotony, use Section 11.
 
 ## 1. Sentence-Level Revision
 
@@ -62,7 +67,39 @@ Before:
 After:
 > These findings suggest that improving care will require attention to several patient-level factors.
 
-### 1.7 Keep protected tokens intact
+### 1.7 Cut clutter (physics)
+
+Before:
+> As we can see from Figure 2, if the return kinetic energy is less than 3.2 Up, there will be two electron trajectories associated with this kinetic energy.
+
+After:
+> Figure 2 shows that a return kinetic energy below 3.2 Up yields two electron trajectories.
+
+### 1.8 Active voice (astronomy)
+
+Before:
+> The first visible-light snapshot of a planet circling another star has been taken by NASA's Hubble Space Telescope.
+
+After:
+> NASA's Hubble Space Telescope has taken the first visible-light snapshot of a planet circling another star.
+
+### 1.9 Undo nominalization (molecular biology)
+
+Before:
+> During DNA damage, recognition of H3K4me3 by ING2 results in recruitment of Sin3/HDAC and repression of cell proliferation genes.
+
+After:
+> During DNA damage, H3K4me3 recruits ING2 and Sin3/HDAC, which together repress cell proliferation genes.
+
+### 1.10 Cut clutter (environmental science)
+
+Before:
+> It is suspected that the importance of temperature has more to do with impacting rates of other reactions than being a mechanism of disinfection itself since ponds are rarely hot enough for temperature alone to cause disinfection.
+
+After:
+> Ponds are rarely hot enough for temperature alone to cause disinfection; thus, the effect of temperature is likely mediated through its impact on the rates of other reactions.
+
+### 1.11 Keep protected tokens intact
 
 Before:
 > In Eq. (2), we estimated the hazard ratio as \(HR = e^{\beta_1}\), as shown in Figure 3 and Table S2.
@@ -198,6 +235,14 @@ Before:
 
 After:
 > Group differences were assessed with chi-square tests for categorical variables and t tests for continuous variables.
+
+### 4.6 Cut buried verb (geophysics)
+
+Before:
+> After rejecting paths with poor signal-to-noise ratios, we were left with 678 velocity measurements of waves with 7.5 seconds period and 891 measurements of 15-second waves.
+
+After:
+> Rejecting paths with poor signal-to-noise ratios left 678 velocity measurements of 7.5-second waves and 891 of 15-second waves.
 
 ## 5. Results Examples
 
@@ -341,7 +386,116 @@ Reviewer comment:
 Response:
 > We believe the analysis itself is appropriate, but we agree that the original description was too brief. We have expanded the Statistical Analysis subsection to clarify the model specification, covariate adjustment, and sensitivity analyses.
 
-## 8. Quick Matching Guide
+## 8. Hedging and Claim-Strength Examples
+
+### 8.1 Remove stacked hedges
+
+Before:
+> It is possible that the observed association may be potentially related to differences in baseline diet.
+
+After:
+> The observed association may reflect differences in baseline diet.
+
+### 8.2 Replace vague attribution with a specific citation
+
+Before:
+> It has been suggested that sleep duration affects blood pressure.
+
+After:
+> Several prospective studies suggest that short sleep duration is associated with higher blood pressure [refs].
+
+### 8.3 Strengthen appropriately when evidence supports it
+
+Before:
+> Our findings suggest that the drug may possibly reduce mortality.
+
+After (if from a large RCT):
+> Our findings demonstrate that the drug reduced mortality.
+
+## 9. Numbers and Data Presentation Examples
+
+### 9.1 Use absolute risk for broad audiences
+
+Before:
+> Hormone therapy was associated with a 26% increased risk of breast cancer.
+
+After:
+> Hormone therapy was associated with 8 additional breast cancer cases per 10,000 women per year.
+
+### 9.2 Round to meaningful precision
+
+Before:
+> The mean BMI was 27.3482 kg/m² in the intervention group and 27.1297 kg/m² in the control group.
+
+After:
+> Mean BMI was similar in both groups (about 27 kg/m²).
+
+### 9.3 Prefer comparison over raw duplication
+
+Before:
+> Average symptom scores decreased from 8.0 to 4.0 in group A and from 8.1 to 6.7 in group B.
+
+After:
+> Symptom scores fell by about 50% in group A but only modestly in group B.
+
+## 10. Paragraph Restructuring Examples
+
+### 10.1 Outline-first restructuring (perfume concentrations)
+
+Before (212 words):
+> Most scents remain constant in their quality over orders of magnitude of concentration. Nevertheless, at high concentrations, quality tends to be negatively correlated with intensity, as was the case, for example, for the cinnamon oil used in this study. Hence, reliability of absolute scorings was achieved by calibrating the amount of perfume ingredients with initial ratings for intensity against a reference substance of known concentration. The final concentrations were in principal chosen in a way such that individual ratings showed variance among participants within the sliding scale between 0 and 10. This procedure seemed successful for most scents; however, the concentrations for bergamot (highest average ratings) and vetiver (lowest average rating) could probably been reduced even more, as both scents did not show any discriminating power at the level of common alleles.
+
+Outline:
+- Main idea: Were the perfume concentrations appropriate?
+- Point 1: High concentrations hurt quality → not a problem because intensity was standardized.
+- Point 2: Concentrations appropriate if they produce sufficient variability → true for most, with two exceptions.
+
+After (91 words):
+> Perfume intensity and quality are negatively correlated at high concentrations: if the scent is too strong, people will rate it unfavorably. Hence, we chose the final concentration of each perfume ingredient so that it had similar intensity to a reference scent (1-butanol). The resulting concentrations appeared appropriate for most scents, as participants' preferences varied along the sliding scale between 0 and 10. However, participants largely agreed on bergamot (highest average ratings) and vetiver (lowest average ratings), so lower or higher concentrations may have been needed for these scents.
+
+### 10.2 Reorder paragraphs by outlining first (chocolate and diabetes)
+
+Before (177 words):
+> The concept of chocolate having potential therapeutic benefits for people with diabetes mellitus presents a number of intellectual challenges. It seems almost counterintuitive to suggest an energy-dense food that is high in sugar could offer such promise. However, a large volume of mechanistic and animal model studies has been undertaken demonstrating the potential benefits of cocoa and chocolate for both glucose regulation and modification of complications associated with diabetes. Cesar Fraga first proposed the potential of chocolate for people with diabetes in 2005. Grassi and colleagues further reinforced this potential for its antihypertensive and insulin-sensitizing effect. However, the hypothesis of chocolate having a beneficial effect remains counterintuitive and has yet to gain support among the wider medical and healthcare community.
+
+Outline (reordered — lead with the evidence, end with the surprise):
+1. Many studies suggest chocolate is healthy.
+2. Benefits for hypertension and diabetes.
+3. Medical professionals remain skeptical.
+4. It is counterintuitive that chocolate might be healthy.
+
+After (87 words):
+> Many mechanistic and animal studies suggest health benefits for cocoa and chocolate, particularly for patients with hypertension and type 2 diabetes mellitus. These studies suggest that cocoa and chocolate can lower blood pressure, improve glucose regulation, improve insulin sensitivity, and reduce complications from diabetes. But the idea of chocolate as medicine has yet to gain widespread support among consumers or among the wider medical and healthcare community. It seems counterintuitive that a high-sugar, energy-dense food — one often seen as a treat or "dietary sin" — could promote health.
+
+## 11. Sentence Variety Examples
+
+### 11.1 Break monotonous structure
+
+Before:
+> The intervention reduced blood pressure. The intervention improved medication adherence. The intervention did not affect body weight. The intervention was easy to deliver. The intervention was well tolerated.
+
+After:
+> The intervention reduced blood pressure and improved medication adherence, though it did not affect body weight. Delivery was straightforward, and participants tolerated it well.
+
+### 11.2 Vary sentence openings
+
+Before:
+> We measured cortisol levels at baseline. We measured cortisol levels at 6 weeks. We measured cortisol levels at 12 weeks. We found that cortisol decreased significantly over time.
+
+After:
+> Cortisol levels were measured at baseline, 6 weeks, and 12 weeks. Over this period, cortisol decreased significantly.
+
+## 12. Cover Letter Example
+
+### 12.1 Replace generic opening with a finding-led pitch
+
+Before:
+> Dear Editor, Please find attached our manuscript entitled "Obesity and Cancer Risk." We hope you will consider it for publication in your esteemed journal. Our study is about obesity and cancer. We believe it is important and timely.
+
+After:
+> Dear Editor, We are submitting our manuscript "Obesity and Site-Specific Cancer Risk in a Prospective Cohort" for consideration as an Original Article in the Journal of Clinical Oncology. We found that obesity was independently associated with higher risk of several site-specific cancers in a large prospective cohort followed for 15 years. These findings are relevant to your readership because they extend prior cross-sectional evidence with long-term prospective data. [Add originality, author-approval, and competing-interest statements only after confirming them with the authors.]
+
+## 13. Quick Matching Guide
 
 - If the sentence sounds bloated, look at Section 1.
 - If the abstract is vague or incomplete, look at Section 2.
@@ -350,3 +504,8 @@ Response:
 - If the Results read like a table, look at Section 5.
 - If the Discussion starts weakly or overclaims, look at Section 6.
 - If the user needs polite point-by-point revision text, look at Section 7.
+- If the passage has stacked hedges or claim-strength issues, look at Section 8.
+- If numbers are misleading or over-precise, look at Section 9.
+- If paragraphs are disorganized and need restructuring from the outline up, look at Section 10.
+- If sentences are monotonous in length or structure, look at Section 11.
+- If the cover letter is generic or unfocused, look at Section 12.

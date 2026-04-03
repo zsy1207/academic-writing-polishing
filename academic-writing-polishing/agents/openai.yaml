@@ -1,4 +1,4 @@
 interface:
   display_name: "Academic Writing Polishing"
-  short_description: "Polish academic writing and manuscripts"
-  default_prompt: "Revise academic or scientific writing for clarity, concision, structure, and section-appropriate tone without changing the underlying science."
+  short_description: "Polish or draft academic sections, cover letters, and reviewer replies with evidence-safe clarity, sentence variety, and journal fit"
+  default_prompt: "Use $academic-writing-polishing to polish, rewrite, or draft an academic section, cover letter, or reviewer response while preserving evidence, claim strength, numbers, citations, protected tokens, and audience fit."
