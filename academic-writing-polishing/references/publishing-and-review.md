@@ -1,5 +1,13 @@
 # Publishing and Review
 
+## Read selectively
+
+This file contains several different publishing-related concerns.
+
+- For `Response rewrite`, usually read only `Submission and revision -> Response to reviewers`.
+- Read `Fast publishing audit` only when the user explicitly asks for submission-risk checks.
+- Read `Publication integrity`, `Authorship and acknowledgements`, `Peer review`, or `Predatory-journal checks` only when the user directly asks about those topics or when a red flag appears in the text.
+
 ## Contents
 
 1. Publication integrity

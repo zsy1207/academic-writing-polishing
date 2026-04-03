@@ -1,5 +1,13 @@
 # Core Editing
 
+## Read selectively
+
+This file mixes day-to-day polishing rules with optional process coaching.
+
+- For `Light polish`, usually read only: `Cut clutter`, `Work with verbs`, `Build better sentences and paragraphs`, `Micro-grammar reminders`, and `Example edits`.
+- For `Structural polish`, usually read: `Build better sentences and paragraphs`, `Example edits`, and any needed sentence-level subsections.
+- Read `Optional process coaching` only when the user asks how to organize drafting or revision, or when the problem is really a writing-process problem rather than a passage-level polishing task.
+
 ## Contents
 
 1. Principles
@@ -7,7 +15,7 @@
 3. Work with verbs
 4. Build better sentences and paragraphs
 5. Micro-grammar reminders
-6. Separate drafting from revision
+6. Optional process coaching
 7. Example edits
 8. Final pre-delivery checklist
 
@@ -144,7 +152,7 @@ If the information is fundamentally hierarchical, procedural, or heavily numeric
 - Use `that` for restrictive clauses and `which` for nonrestrictive clauses.
 - Avoid singular antecedents paired with `they` or `their` when the sentence can be rewritten cleanly in the plural.
 
-## Separate drafting from revision
+## Optional process coaching
 
 Treat writing as three distinct stages.
 
