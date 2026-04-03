@@ -8,7 +8,8 @@
 4. Build better sentences and paragraphs
 5. Micro-grammar reminders
 6. Separate drafting from revision
-7. Final pre-delivery checklist
+7. Example edits
+8. Final pre-delivery checklist
 
 ## Principles
 
@@ -16,6 +17,7 @@
 - Clarity matters more than elegance.
 - Writing is a learned skill. Expect multiple revision passes.
 - Prefer plain precision to impressive-sounding vagueness.
+- In polishing work, fix the root rhetorical problem before polishing the sentence surface.
 
 ## Cut clutter
 
@@ -177,6 +179,40 @@ Run multiple focused checks rather than one vague polish pass.
 - Tag each paragraph with its main point and reorder as needed.
 - Get feedback from a smart outside reader when audience reach matters.
 - Verify reference integrity and prefer primary sources when the task touches literature claims.
+
+## Example edits
+
+### Clutter and nominalization
+
+Before:
+> It should be emphasized that the analysis of these data provides an explanation of the observed difference.
+
+After:
+> These data explain the observed difference.
+
+### Passive to active
+
+Before:
+> A recommendation was made by the committee that the study be halted.
+
+After:
+> The committee recommended halting the study.
+
+### Buried verb
+
+Before:
+> One study of patients with severe asthma and prolonged corticosteroid exposure found that only a small proportion improved.
+
+After:
+> One study found that only a small proportion of patients with severe asthma and prolonged corticosteroid exposure improved.
+
+### Paragraph focus
+
+Before:
+> The intervention reduced blood pressure in the treatment group. The hospital also changed its electronic record system during the study. The intervention was easy to deliver. Participants in the control group were older.
+
+After:
+> The intervention lowered blood pressure in the treatment group and was easy to deliver. Because the hospital changed its electronic record system during the study and the control group was older at baseline, those differences should be considered when interpreting the effect size.
 
 ## Final pre-delivery checklist
 

@@ -1,13 +1,13 @@
 ---
 name: academic-writing-polishing
-description: Use when polishing or rewriting existing academic or scientific text, excerpts, or manuscript sections for clarity, concision, section fit, journal style alignment, reviewer-response revision, AI-sounding phrasing reduction, or broader-audience adaptation.
+description: Use when polishing or rewriting existing academic or scientific text, excerpts, or manuscript sections for clarity, concision, logical flow, section fit, journal style alignment, reviewer-response revision, or AI-sounding phrasing reduction while preserving claims, numbers, citations, equations, and markup.
 ---
 
 # Academic Writing Polishing
 
 ## Overview
 
-Polish existing academic writing without changing the underlying science. Diagnose the request shape first, then choose the lightest mode that achieves the goal.
+Polish existing academic writing without changing the underlying science. Start by identifying what kind of academic text you have, what role the passage plays in the document, and how much intervention is appropriate. Then revise from structure to paragraph logic to sentence-level style, and finish with consistency and integrity checks.
 
 Default audience, when unspecified, is an educated scientific reader outside the exact subfield.
 
@@ -17,16 +17,18 @@ Default audience, when unspecified, is an educated scientific reader outside the
 - The real task is fact-checking, literature search, citation gathering, or source verification.
 - The task is pure translation rather than editorial revision.
 - The task is only scientific peer review, methods critique, or statistical critique with no language-editing objective.
+- The user wants new conclusions, stronger claims, or speculative mechanisms that are not already supported by the text.
 
 ## Dispatch Table
 
 | User request shape | Mode | Load | Output shape |
 | --- | --- | --- | --- |
-| User provides text and wants cleaner prose | Light polish | `references/core-editing.md` and only the section-specific file if needed | Revised text first; brief notes only if useful |
-| User provides text but the logic, order, or section job is wrong | Structural polish or Section rewrite | `references/core-editing.md` plus the relevant section file | Reorganized rewrite plus a short diagnosis |
-| User provides existing text for a new audience or genre | Audience rewrite | `references/other-genres-and-public-audiences.md` plus any relevant section file | Adapted rewrite plus a one-line framing note |
-| User wants reviewer-response help or submission-risk checks | Structural polish as needed | `references/publishing-and-review.md` plus any relevant section file | Point-by-point response or issue list |
+| User provides text and wants cleaner prose | Light polish | `references/core-editing.md` and section-specific guidance only if needed | Revised text first; brief notes only if useful |
+| User provides text but the logic, order, or paragraph jobs are wrong | Structural polish | `references/core-editing.md` plus `references/manuscript-sections.md` if section-specific | Reorganized rewrite plus a short diagnosis |
+| User provides a section that does the wrong rhetorical job | Section rewrite | `references/manuscript-sections.md` plus `references/core-editing.md` | Rewritten section plus a short explanation of what changed |
+| User wants point-by-point reviewer-response help | Response rewrite | `references/publishing-and-review.md` plus any relevant section file | Numbered response text or issue list |
 | User asks for polishing but provides no source text | Do not rewrite yet | None | Ask only for the minimum inputs: source excerpt, target venue or audience, and intervention level |
+| User asks for examples or model rewrites | Example-guided polish | `references/academic-revision-examples.md` as an example bank plus the relevant core file | Example first, then revised text if source text is available |
 
 Load only what the task needs.
 
@@ -35,8 +37,10 @@ Load only what the task needs.
 - Preserve meaning, evidence, numbers, citation intent, equations, variables, and markup unless the user explicitly asks for substantive rewriting.
 - Do not invent data, methods, results, mechanisms, references, or limitations.
 - Do not silently strengthen or weaken claims.
+- Never convert correlation into causation.
 - Do not smooth over scientific or logical flaws. Name them directly, then offer the safest rewrite.
-- Do not break protected tokens such as citation numbers or callouts, citation keys, placeholders, LaTeX labels or commands, inline math, Markdown anchors, LaTeX anchors, or table structure.
+- Do not break protected tokens such as citation numbers or callouts, citation keys, placeholders, LaTeX labels or commands, inline math, Markdown anchors, LaTeX anchors, URLs, or table structure.
+- Do not add, remove, or swap citations just to make the prose read better.
 - Keep key terminology stable. Repeat the right keyword rather than forcing awkward synonyms.
 - Use active voice by default, but allow passive voice where the action matters more than the actor, especially in Methods.
 - If target discipline, journal, or voice materially affects the rewrite and cannot be inferred safely, ask before forcing a style.
@@ -50,6 +54,7 @@ Load only what the task needs.
 3. Run the structural pass.
    - Check whether the piece answers the right question in the right order.
    - Group like ideas together.
+   - Remove bait-and-switch movement across paragraphs.
 4. Run the paragraph pass.
    - Keep one main idea per paragraph.
    - Move the punch line early.
@@ -58,8 +63,10 @@ Load only what the task needs.
    - Strengthen verbs.
    - Cut clutter, nominalizations, empty hedging, and weak openings.
    - Keep the subject and main verb close.
-6. Run the final safety pass.
+6. Run the integrity pass.
    - Check numbers, labels, claims, citations, tables, figures, equations, and section boundaries.
+7. Run the fit pass.
+   - Ask whether the revised passage sounds like the right section in the right paper for the right reader.
 
 ## Quick Reference
 
@@ -69,6 +76,7 @@ Load only what the task needs.
 - Favor general-to-specific or question-to-answer progression.
 - Make the text do the job of its slot. A Discussion opening should not read like a limitation paragraph, and a Results paragraph should not sound like interpretation.
 - Group support, counterarguments, and rebuttals instead of alternating them sentence by sentence.
+- If the material is fundamentally hierarchical, procedural, or heavily numeric, consider whether prose should become a table or figure.
 
 ### Paragraphs
 
@@ -95,6 +103,7 @@ Load only what the task needs.
 - If the user provides text, return the revised text first. Add brief notes only when they materially help the user understand the structural change, trade-off, or unresolved scientific issue.
 - If the text has both writing and science problems, state the scientific or logical risk briefly, then provide the strongest safe rewrite that does not fabricate missing support.
 - If multiple rewrites are genuinely useful, provide 2-3 options with a one-line explanation of the trade-off.
+- If the user asks for examples, show one compact before-and-after example before or alongside the actual revision.
 
 ## Final Checks
 
@@ -105,3 +114,4 @@ Load only what the task needs.
 - Do citations still support the sentence they follow?
 - Did the rewrite preserve protected tokens, equations, variables, citation keys, and markup?
 - Is the jargon level right for the audience?
+

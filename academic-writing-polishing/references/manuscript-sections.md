@@ -9,6 +9,7 @@
 5. Introduction
 6. Discussion
 7. Abstract
+8. Section examples
 
 ## Recommended writing order
 
@@ -43,6 +44,7 @@ Each table or figure should make one clear point and stand on its own.
   - handle many variables or exact comparisons
 
 Do not present the same data in both a table and a figure unless there is a strong reason.
+Use the fewest figures and tables needed to tell the story.
 
 ### Table rules
 
@@ -73,6 +75,8 @@ Do:
 - cite the supporting table or figure
 - highlight only the most important numbers
 - include negative and control results
+- complement the table or figure with precise values or higher-value comparisons when needed
+- prefer percent change, ratio, or contrast statements when they tell the story better than raw duplication
 
 Do not:
 - narrate every number line by line
@@ -200,6 +204,40 @@ Typical elements:
 - Prefer summary statements over raw detail.
 - Include only the most important numbers.
 - Match whatever structured or unstructured format the target journal requires.
+
+## Section examples
+
+### Results example
+
+Before:
+> Table 2 shows that the treatment group exercised 60 minutes per day and the control group exercised 30 minutes per day.
+
+After:
+> Participants in the treatment group exercised twice as long as controls (Table 2).
+
+### Discussion example
+
+Before:
+> This study has several limitations. We found that obesity was associated with increased risk of several cancers.
+
+After:
+> We found that obesity was associated with an increased risk of several cancers. This study has several limitations that should temper causal interpretation.
+
+### Introduction example
+
+Before:
+> Breast cancer is common. Smoking is harmful. Many studies have examined smoking and cancer. In this paper, we studied breast cancer.
+
+After:
+> Prior studies suggest a possible association between smoking and breast cancer, but the evidence has been inconsistent and often limited by retrospective exposure assessment. We therefore asked whether long-term smoking exposure was associated with incident breast cancer in a prospective cohort.
+
+### Abstract example
+
+Before:
+> We studied obesity and cancer. Many results were found. The implications are discussed.
+
+After:
+> We examined whether obesity was associated with site-specific cancer risk in a prospective cohort. Using multivariable-adjusted survival models, we found higher risks for several cancers among participants with obesity. These findings support obesity as an important correlate of cancer burden and justify further work on mechanism and prevention.
 
 ## Fast manuscript audit
 
